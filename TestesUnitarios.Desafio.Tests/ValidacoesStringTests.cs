@@ -19,7 +19,7 @@ public class ValidacoesStringTests
         var resultado = _validacoes.RetornarQuantidadeCaracteres(texto);
 
         // Assert
-        Assert.Equal(resultadoEsperado, resultado);
+        Assert.Equal( resultado, resultadoEsperado);
     }
 
     [Fact]
